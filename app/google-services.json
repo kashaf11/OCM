@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "332108631721",
+    "project_id": "online-click-maintenance",
+    "storage_bucket": "online-click-maintenance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332108631721:android:1479e6825a2dfbc84ba3b8",
+        "android_client_info": {
+          "package_name": "com.example.kashaf.ocm.fyp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332108631721-e5sl6ib933k0cuhvbrrbujofg1u7pfst.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClvhJmcaDlrR9h6Czz6Y8hGRbnaMqjWoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332108631721-e5sl6ib933k0cuhvbrrbujofg1u7pfst.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

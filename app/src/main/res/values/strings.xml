@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">BAYD</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Name of User</string>
+    <string name="nav_header_subtitle">Email</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_search">Search</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_schedule">Schedule</string>
+    <string name="menu_history">History</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_request">Requests</string>
+    <string name="menu_profile">Profile</string>
+    <string name="map_key" translatable="false">AIzaSyB_qsP8AOP_P0MdIPz-48TDaJYjTP3vbjo</string>
+    <string name="title_activity_search">Map</string>
+    <string name="Select_Makeup">Select Makeup</string>
+    <string name="Select_Mehndi">Select Mehndi</string>
+    <string name="Select_Facial">Select Facial</string>
+    <string name="Select_Haircut">Select Haircut</string>
+    <string-array name="Select_Makeup">
+        <item>Bridal MakeUp</item>
+        <item>Party MakeUp</item>
+        <item>Natural MakeUp</item>
+        <item>Prom MakeUp</item>
+        <item>Evening MakeUp</item>
+    </string-array>
+    <string-array name="Select_Mehndi">
+        <item>Bridal Mehndi</item>
+        <item>Party Mehndi</item>
+        <item>Simple Mehndi</item>
+        <item>Prom Mehndip</item>
+    </string-array>
+    <string-array name="Select_Haircut">
+        <item>Layers</item>
+        <item>Steps</item>
+        <item>Bob cut</item>
+    </string-array>
+    <string name="title_activity_beautician__booking__requests_">
+        Beautician_Booking_Requests_Activity
+    </string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="time">Time :</string>
+    <string name="discount">Discount</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+
+    <string name="fritz_hair_color_title">Run in Real-Time</string>
+    <string name="fritz_hair_color_description">Using a live preview, change your hair color in real-time.</string>
+    <string name="fritz_video_hair_color_title">Run on a Saved Video</string>
+    <string name="fritz_video_hair_color_description">Choose a video you\'ve already recorded and run hair coloring on each frame.</string>
+    <string name="video_path_key">video</string>
+
+    //privacy
+    <string name="privacy">Privacy Policy</string>
+    <string name="text1">Our application respects the privacy of our users. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our mobile application. Please read this Privacy Policy Carefully. IF YOU DO NOT AGREE WITH THE TERMS OF THE PRIVACY POLICY, PLEASE DO NOT ACCESS THE APPLICATION.</string>
+    <string name="text2">We reserve the right to make changes to this Privacy Policy at any time and for any reason. We will alert you about any changes by updating the Privacy Policy. You are encouraged to periodically review this Privacy Policy to stay informed of updates. You will deemed to have been made aware of, will be subject to, and will be deemed to have accepted the changes in any revised Privacy Policy by our continued use of the application after the date such revised Privacy Policy is posted.</string>
+    <string name="text3">We may collect information about you in a variety of ways. The information we may collect via the Application depends on the content and materials you see and includes:</string>
+    <string name="text4">Demographic and other personally identifiable information (such as your name, email address, contactnumber and CNIC) that you voluntarily give to us when choosing to participate in various activities related to the Application, such as chat, posting messages And Making profiles to keeping users personal information safe and secure.</string>
+    //help
+    <string name="help">Help</string>
+    <string name="h_text1">Here is a guide for this application users. How you can access this application and make best use of it.</string>
+    <string name="h_text2">Some frequently asked questions related to this application are listed here. Which arrives in a users mind while using this application features.</string>
+    <string name="h_text3">Client click on search beautician by turning on her location and can easily access nearby beautician and then send request by selecting different  services and view the bill</string>
+    <string name="h_text4">Client/beautician can just click on chat the contact is shown their simply select the contact and text her.</string>
+    <string name="h_text5">If an application users can forget their login password, they can easily reset their password.on sign-in page their is a button of forget password by clicking this a new screen appears They will provide an email and receive the verification link  their and do through this they can update password there</string>
+    <string name="h_text6">If an application users want to update their password for security. They just go to the update profile and click on Change password new screen appears enter old password then enter new password and the password is easily updated.</string>
+    <string name="h_q1">How can you search nearby beautician?</string>
+    <string name="h_q2">How can you chat with booked beautician?</string>
+    <string name="h_q3">How can client/beautician see live location/movement of each other?</string>
+    <string name="h_q4">How can application users change their password when they forget it?</string>
+    <string name="h_q5">How can application users update their password???</string>
+    <string name="invalid_name">please enter a valid name</string>
+    <string name="invalid_mobile">please enter a valid mobile number</string>
+    <string name="invalid_email">please enter a valid email</string>
+    <string name="invalid_password">Min password length 6 character long</string>
+    <string name="invalid_fullname">Please enter a valid Name</string>
+
+</resources>

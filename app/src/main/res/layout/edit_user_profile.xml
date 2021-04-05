@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/blue_white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp"
+            android:layout_margin="30dp"
+            android:background="@drawable/rounded">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Edit Profile !"
+                android:textSize="25dp"
+                android:layout_gravity="center"
+                android:textStyle="bold|italic"
+                />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/user_profie_profilepic"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/fab_margin"
+                android:src="@drawable/profile"
+                app:civ_border_color="@color/blue_normal"
+                app:civ_border_width="1.5dp" >
+            </de.hdodenhof.circleimageview.CircleImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change profile picture"
+                android:textColor="#9A000000"
+                android:textSize="18dp"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="@color/blue_normal"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:id="@+id/user_profile_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="name" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone Number"
+                android:textColor="@color/blue_normal"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:id="@+id/user_profile_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="number"
+                android:inputType="text"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="@color/blue_normal"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:id="@+id/user_profile_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email" />
+
+            <TextView
+                android:id="@+id/changeuserpassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change Password"
+                android:textColor="@color/blue_normal"
+                android:textSize="18dp"
+                android:layout_gravity="right"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/btnUpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:layout_gravity="end"
+                android:padding="@dimen/fab_margin"
+                android:text="   UPDATE   "
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:textColor="@color/whitecolor"
+                android:background="@drawable/rounded_button"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

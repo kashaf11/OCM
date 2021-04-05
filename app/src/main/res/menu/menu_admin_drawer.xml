@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_user_management"
+            android:icon="@drawable/dashboard"
+            android:title="User Management" />
+        <item
+            android:id="@+id/nav_mechanic_management"
+            android:icon="@drawable/help"
+            android:title="Mechanic Management" />
+        <item
+            android:id="@+id/nav_vehicle_management"
+            android:icon="@drawable/help"
+            android:title="Vehicle Management" />
+        <item
+            android:id="@+id/B_nav_privacy"
+            android:icon="@drawable/privacy"
+            android:title="Privacy Policy" />
+        <item
+            android:id="@+id/user_nav_feedback"
+            android:icon="@drawable/feedback"
+            android:title="User Feedback" />
+
+        <item
+            android:id="@+id/mechanic_nav_feedback"
+            android:icon="@drawable/feedback"
+            android:title="Mechanic Feedback" />
+        <item
+            android:id="@+id/B_nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share App" />
+        <item
+            android:id="@+id/B_nav_logout"
+            android:icon="@drawable/logoutt"
+            android:title="Log Out" />
+
+    </group>
+</menu>
